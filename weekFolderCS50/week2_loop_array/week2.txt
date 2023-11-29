@@ -1,0 +1,59 @@
+lecture 2
+- preprocessing (clang -0 hello hello.c)
+- compiling - assembly language - main:
+- assembling - 0 and 1
+- linking - libraries of c, stdio.h, cs50.h etc
+
+// 1:1 assembly code : machine code
+
+- debugger:
+    - step over - runs line over block of code, function, loop
+    - step into - each line, line by line into block of code, function, loop etc. looping because condition is not broken
+    -
+- rubber duck debugging - talking through things
+
+
+Memory module -
+- type casting - upcasting, downcasting - requires to assign more memory or less memory
+
+Array is way of storing data in computer memory for ease of access
+in C array does not have method for length or size
+
+Char c1 = 'H'; - takes 1 byte 8 bit
+string s = "Hi"; - string is array of chars, string takes 1 byte for char. plus extra 1 byte, adds special zero \0 in the end
+s[0] or in Java s.charAt(0)
+
+cowsay moo - in Linux
+cowsay -f duck quack
+cowsay -f dragon RAWR
+
+
+exit status
+when main function exits, it return exit status, it is integer, like 1, 0. error code
+404 not found -
+
+cryptology
+cypher text
+encryption
+input -> [cipher] -> output
+
+--
+clang - c lang compile
+clang -0 hello hello.c == make hello
+
+source code -> machine code (binnary)
+array is data structure
+
+string a = "naz";
+string b = "naz";
+heap and stack, stack saves address or pointer to objects, heap stores object,
+ when we compare a==b, they have different address, or memory allocation, special mehtod shoud be used such strOne.equals(str2)
+
+
+Arrays -
+array is block of memory, partitioned into elements, same data type
+type name[size];
+
+bool battleship[10][10] - multidimensional array
+CLI
+command line arguments

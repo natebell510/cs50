@@ -1,0 +1,112 @@
+hexadecimal
+base16   012345679abcdef
+
+pointers
+
+to use memory from HDD or SSD RAM is needed to move it
+
+int 4
+char 1
+float 4
+double 8
+long long 8
+sting
+big array of byte sized cells
+string in c -> lloyd\0
+0x4
+pointers are just addresses
+int k;
+k = 5;
+int* pk;
+pk = &k;
+
+NULLPOINTER points to nothing
+- extract address to already existing variable, extraction operator &
+array name is a pointer to first element of that array, so pointer should be +1
+int* pa, *pb, *pc; NOT int* px, py, pz;
+
+how large is a string?
+there is no data type called string, it was created in CS50.H, char* 4 or 8
+
+32bit every address is 32bit long, same for 64bit
+
+*pk = 35; -< dereferencing
+
+int m; m =4; pk = &m; pk gets address of m;
+
+custom types
+struct
+typedef <oldName> newName
+typedef unsigned char byte;
+
+typedef char* string;
+
+struct car {
+    int year;
+    char model[10];
+    int odometer;
+
+}
+car_t;
+car_t mycar;
+mycar.year = 2013;
+
+dynamic memory allocation
+malloc -> free
+memory comes from HEAP
+STACK - variable names
+stack variables ->     <- heap data
+RUNOUTOFMEMORY, used of heap or all of stack
+
+deference null pointer -> segmentation fault
+
+int x; lives in stack
+int *px = malloc(sizeof(int));
+int x = GetInt();
+float stack_array[x];
+float* heap_array = malloc(x * sizeof(float));
+each float takes 4 bytes of space
+to avoid memory leak free();
+
+char* word = malloc(50 * sizeof(char));
+do not free more than once;
+
+int m;
+int* a;
+int* b = malloc(sizeof(int));
+a = &m;
+a = b;
+m = 10;
+*b = m + 2;
+free(b);
+*a = 11;
+segmentation fault, there is no address;
+
+call stacks
+push and pop frames: main() printf() fact(5)
+
+file pointers
+functions: fopen() fclose();
+
+fopen() opens file and returns a pointer;
+FILE* ptr = fopen(<fileName>, <operation>);
+ex. FILE* ptr1 = fopen("file1.txt","r");
+ FILE* ptr2 = fopen("file1.txt","A");
+
+fclose(<file pointer>); closes file
+
+fgetc();
+reads and returns next character from file pointed to;
+char ch = fgetc(<file pointer>); file pointer must be opened
+
+fputc();
+writes or appends character to file
+fputc(<character>, <file pointer>);
+
+fread();
+read <qty> unites of size <size> from file
+fread(<buffer>, <size>, <qty>, <file pointer>);
+int arr[10];
+fread(arr, sizeof(int), 10, ptr);
+
+

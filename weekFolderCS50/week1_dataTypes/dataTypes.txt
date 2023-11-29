@@ -1,0 +1,27 @@
+data types in C
+int for integers - 4 byte (32bits) - 2 in 31
+unassigned int
+char -128 to 127 - 1byte = 8bit, ASCII -
+char a = 'A'; int n = 65;
+float 4byte 32bit , contains decimal
+double 8 bytes 64bits - precision is important
+void not a data type, return type, no return value
+
+//not included in C
+in cs50.h bool - to store boolean value, true or false ->
+string - series of chars
+structs adn define types typedefs - creating data types
+int h,w;
+double sum, amount, total;
+int num = 0; num = 15; reassigning
+
+//conditional statements
+public static main void(String [] args){
+    int x = 12;
+    if(x == 11){
+        return 0;
+    } else {
+        return 1;
+    }
+}
+

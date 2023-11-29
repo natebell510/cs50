@@ -1,0 +1,42 @@
+MEMORY
+//if comparing stra == strb - two different addresses in memory, use str.equals(strb)
+    //int j == int k;
+    //strlen(str)
+
+    //malloc(strlen(str)+1) - allocate memory, free(str);
+
+    //strcpy(t,x);
+passing by value (copies of the values) because of scope
+
+//add * to swap values, takes addresses
+list(int) swap(int *a, int *b){
+    int tmp = *a;
+    *a = *b;
+    *b = tmp;
+    return list(a,b);
+}
+swap(&x, &y);
+
+buffer overflow, buffer is stack of memory
+
+
+memory hierarchy:
+loading machine code
+globals
+malloc starts from heap ->     <- stack    function ex.swap starts from here  main
+
+
+char *s;
+s = 's';
+&s;
+
+pointer is variable and it has address
+value of - value at that variable location
+&calls == 0x1A
+pointer used for goint to location and get variable
+*p; go to value at address stored in p
+
+type * is a pointer that stores the address of a type
+*x takes pointer x and goes to the address stored at that pointer
+$x takes x and gets its address
+

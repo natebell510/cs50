@@ -1,0 +1,11 @@
+OOP principles:
+    - abstraction
+    - inheritance
+    - polymorphism
+    - encapsulation
+overloading vs overriding
+compile time error vs runtime error
+
+week10 final project: windows, mac, mobile, cloud
+
+

@@ -1,0 +1,48 @@
+data structures
+
+Queue - FIFO
+- enqueue
+- dequeue
+
+Stack - top element is accessable first, LIFO
+- push - add to top
+- pop - remove from top
+
+int *tmp = malloc(4 * sizeof(int));
+*temp = 1;
+*(temp + 1) = 2;
+realloc(temp, 4 * sizeof(int));
+
+linked list - data and metadata about data, previous pointer linked to next element
+1       2
+0x451   0x785
+
+linked list has twice as much memory as array to store element and pointer
+node *n = malloc(sizeof(node));
+
+int arr[5]; int arr2 [] = {1,5,5};
+
+typedef struct node
+{
+    int number;
+    struct node *left;
+    struct node *right;
+}
+node;
+
+hashing
+bucketizing - split cards into different buckets
+diamonds clubs hearts spades
+
+hashtable - array and linked list
+a -> andrew -> andy
+b -> barry -> bob
+
+tries
+retrieval - tree, where each node is an array
+
+
+
+
+
+

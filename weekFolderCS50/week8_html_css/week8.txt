@@ -1,0 +1,50 @@
+Internet Protocol
+#.#.#.#
+v4 vs v6
+TCP Transmission Control Protocol - distinguish different services
+http https
+hyper text transmission protocol
+IP:portNumber
+https://IP:port
+TCP/IP
+
+data is fragment to be distributed in different packages for secutiry reasons
+when router is overloaded it can drop packages
+
+DNS domain name system - convert domain name to IP and opposite
+
+
+CSS
+type selector, class selector, attribute selector
+
+JavaScript
+
+ipV4 32bit address bs ipV6 129bit addresses
+
+DHCP dynamic host c protocol
+DNS domain name server - translates IP address into human readable  compehensible
+Access point - router, switch, access point, modem
+WIDE AREA NETWORDS WAN, LAN
+
+IP - routing to different addresses from sending machine from receiving machine
+
+TCP - transmission control protocol, each machine has port number, TCP guaranteeing delivery of packets via different paths
+FTP file transfer port 21
+SMTP (email) port 25
+DNS port 53
+HTTP 80
+HTTPS 443
+
+HTTP
+hyper text transfer protocol
+HTTP requests:GET, POST, DELETE, PUT
+301 moved permanently - REDIRECTION,  page is at new location
+302 found - page is at new location temporarily
+401 unathorized - user is not in system
+403 forbidden - request exist, but user is not allowed
+404 not found
+422
+500 - server error
+
+<script src="jsx.js"></script>
+

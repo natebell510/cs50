@@ -1,0 +1,34 @@
+lecture 3 week 3
+Algoritms
+
+sorting:
+- bubble sort
+- recursion - selection
+- merge sort - divide into 2 halves, sort halves, merge and compare halves
+-
+
+
+- linear search
+- selection sort
+-
+
+structs -
+typedef struct
+{
+    string name;
+    int votes;
+}
+candidate;
+
+
+linear search -> from 1st element, step over each element of the array
+binary search -> algo to find element -> reduce size of search array by 2 if array is sorted, repeat it until array size is 0:
+    - calculate middle point, if middle point is less than search element go right, if bigger - 0 to middle point
+    - left from the middle
+    - from middle to the right
+buble sort -> move higher value to the end with swap counter
+selection sort -> swap smallest value in array to the beginning, find in unsorted part of array for smallest element
+recursion -> function that calls itself, collatze conjucture
+merge sort -> divide array into smaller array and sort and combine, sort halves
+
+

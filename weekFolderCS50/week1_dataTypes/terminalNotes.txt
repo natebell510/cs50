@@ -1,0 +1,15 @@
+commands based on UNIX based OS, Linux and MacOS:
+ls - list content of directory
+cd - change directory
+cd .. - up one level
+pwd - home directory
+cd -> cd dirName
+mkdir - create new folder, ex. mkdir dirName
+cp <source> <destination> - ex. cp hello.txt buenos.txt  - copying
+cp -r dirName dirName2 - copying folder
+rm <file> - remove file
+rm -f - remove no confirmation
+rm -r <dirName> - delete folder with files
+rm -rf <dirName> - delete folder with no confirmation
+mv <source> <destination> - moving file
+

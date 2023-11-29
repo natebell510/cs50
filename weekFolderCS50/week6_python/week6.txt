@@ -1,0 +1,36 @@
+z = x /y
+{:.50}
+integer overflow
+docs.python.org/3/library/function.html
+
+
+
+for x in range(0, 100, 2):
+    print(x)
+
+in python arrays called list, not fixed in size
+
+tuple - immutable set of data
+list of tuples:
+    presidents = [
+        ("George Washington", 1776),
+        ("John Adams", 1797)
+    ]
+for prez, year in presidents:
+    print("In {1}, {0} took office".format(prez, year))
+                                            {0}, {1}
+
+Dictionaries
+allows to specify list of indices with words and phrases instead fo integers like in C
+
+class Student():
+    def _init_(self, name, id):
+        self.name = name,
+        self.id = id
+
+    def changeId(self, id):
+        self.id = id
+
+jane = Student("June", 10)
+jane.changeId(25)
+
